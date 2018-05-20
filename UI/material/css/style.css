@@ -1,0 +1,25 @@
+/* YOUR CUSTOM STYLES */
+#home_page{
+    background-color: #1b0733;
+}
+.font-snow{
+    font-family: "Roboto", sans-serif;
+    color: snow;
+}
+#jumbotron{
+    background-color: snow;
+    border-radius:10px;
+    width: 40%;
+    justify-content: center;
+}
+.button-purple{
+    background-color: #1b0733;
+}
+.navbar{
+    background-color: white;
+}
+.font-purple{
+    font-family: Roboto, sans-serif;
+    color: #1b0733;
+    font-weight: 500;
+}

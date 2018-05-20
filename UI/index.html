@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Material Design Bootstrap</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="material/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="material/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="material/css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="material/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+<!-- Start your project here-->
+<div style="height: 100vh" id="home_page">
+    <div class="flex-center flex-column ">
+        <h1 class="animated fadeIn mb-2 font-snow">Welcome to Ride-Book Experience</h1>
+
+        <h5 class="animated fadeIn mb-1 font-snow">Thank you for choosing Ride-Book. We're glad you're with us.</h5>
+
+        <div class="jumbotron-fluid" id="jumbotron" align="center">
+            <button class="btn btn-lg button-purple" id="register_button" data-toggle="collapse"
+                    data-target="#form_register">REGISTER
+            </button>
+            <button class="btn btn-lg button-purple" id="login_button" data-toggle="collapse" data-target="#form_login">
+                LOGIN
+            </button>
+            <div class="md-form">
+                <div class="form-group collapse " id="form_register">
+                    <input type="email" placeholder="email" class="form-control" required>
+                    <span class="small text-muted">Enter a valid email</span>
+                    <input type="text" placeholder="username" class="form-control" required>
+                    <span class="small text-muted"> Enter your username hint: can only contain numbers and letters</span>
+                    <input type="password" placeholder="password" class="form-control" required>
+                    <span class="small text-muted">Enter password hint: contains both uppercase, lowercase and numbers</span>
+                    <center>
+                        <button type="submit" class="btn btn-lg button-purple" value="Register">Register</button>
+                    </center>
+                </div>
+                <div class="form-group collapse" id="form_login">
+                    <input type="email" placeholder="email" class="form-control" required>
+                    <span class="small text-muted"> Enter your registered email</span>
+                    <input type="password" placeholder="password" class="form-control" required>
+                    <span class="small text-muted"> Enter your registered password</span>
+                    <center>
+                        <button type="submit" class="btn btn-lg button-purple" value="Login">Login</button>
+                    </center>
+
+                </div>
+                <div class="form-group collapse" id="form_reset">
+                    <input type="email" placeholder="email">
+                    <span class="small text-muted"> Enter your registered email, A new password will be sent to your email </span>
+                    <center>
+                        <button type="submit" class="btn btn-lg button-purple">Reset Password</button>
+                    </center>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <div id="main_page d-none" style="width: 100%">
+        <div class="navbar navbar-toggleable-sm">
+            <a class="navbar-brand font-purple" href="#"><i class="fa fa-car" style="color: purple;"></i>Ride-Book</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="collapse" data-target="#profile" href="#"><span
+                                class="font-purple">PROFILE</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="collapse" data-target="#dashboard" href="#"><span
+                                class="font-purple">DASHBOARD</span></a>
+                    </li>
+                    <li class="nav-item" data-toggle="collapse" id="#logout">
+                        <a class="nav-link" href="#"><span class="font-purple">LOGOUT</span></a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control form-control-sm mr-sm-2" type="text" placeholder="Search"
+                           aria-label="Search">
+                    <button class="btn btn-md button-purple my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+        </br>
+        <div class="flex-center">
+            <div class="collapse " id="dashboard">
+                <p class="font-snow"> Welcome username, this is where you perform specified actions</p>
+            </div>
+            <div class="jumbotron" id="profile">
+                <div class="md-form">
+                    <div class="form-group">
+                        <p class="font-purple"> Change your password </p>
+                        <input type="text" placeholder="current password" class="form-control" required>
+                        <span class="small text-muted">Enter your password</span>
+                        <input type="password" placeholder="new password" class="form-control" required>
+                        <span class="small text-muted">Enter your new password</span>
+                        <input type="password" placeholder="confirm password" class="form-control" required>
+                        <span class="small text-muted">Confirm new password</span>
+                        <center>
+                            <button type="submit" class="btn btn-lg button-purple">Change password</button>
+                        </center>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /Start your project here-->
+
+<!-- SCRIPTS -->
+<!-- JQuery -->
+<script type="text/javascript" src="material/js/jquery-3.1.1.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="material/js/tether.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="material/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="material/js/mdb.min.js"></script>
+<script type="text/javascript" src="material/js/action.js"></script>
+</body>
+
+</html>
