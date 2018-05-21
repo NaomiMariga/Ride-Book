@@ -6,7 +6,13 @@
     font-family: "Roboto", sans-serif;
     color: snow;
 }
-#jumbotron{
+#driver_jumbotron{
+    background-color: snow;
+    border-radius:10px;
+    width: 40%;
+    justify-content: center;
+}
+#rider_jumbotron{
     background-color: snow;
     border-radius:10px;
     width: 40%;
@@ -21,5 +27,10 @@
 .font-purple{
     font-family: Roboto, sans-serif;
     color: #1b0733;
+    font-weight: 500;
+}
+.button-white{
+    font-family: Roboto, sans-serif;
+    color:snow;
     font-weight: 500;
 }

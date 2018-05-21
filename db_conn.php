@@ -1,8 +1,18 @@
 <?php
-// define database connection
-define('SERVER','localhost:3036);
-define('USER', 'root');
-define('PASSWORD', '1234root');
-$connection = mysqli_connect(SERVER,USER, PASSWORD);
+    // setup database connection
+
+    $dbhost = "localhost";
+    $dbuser = "admin";
+    $dbpass = "1234admin";
+    $dbname = "ShareRide";
+    $connection = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
+
+    if (! $connection){
+        die("connection to server failed ".mysql_error());
+    }
+    else{
+        echo "successfully connected to server";
+        mysql_close($connection);
+    }
 
 ?>
