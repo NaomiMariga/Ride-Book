@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Material Design Bootstrap</title>
+    <title>ShareRide.Inc</title>
     <!-- Font Awesome -->
     <link rel="stylesheet" href="material/css/font-awesome.min.css">
     <!-- Bootstrap core CSS -->
@@ -128,7 +128,7 @@
                                 class="font-purple">DASHBOARD</span></a>
                     </li>
                     <li class="nav-item" data-toggle="collapse" id="#logout">
-                        <a class="nav-link" href="#" onclick="driverLogout();"><span class="font-purple">LOGOUT</span></a>
+                        <a class="nav-link" href="#" onclick="driverLogout()"><span class="font-purple">LOGOUT</span></a>
                     </li>
                 </ul>
                 <form class="form-inline my-2 my-lg-0">
